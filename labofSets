@@ -1,0 +1,36 @@
+What You Need To Do:
+Create a program that does the following:
+Accept exactly one command-line argument that gives the name of your input file.
+If the file specified on the command line does not exist, exit the program with an error message: Could not find input file.
+Read in the file. It will contain two lines. The first line lists the elements in set A. The second line lists the elements in set B.
+Print out eight results:
+A in set notation
+B in set notation
+A ∩ B
+A ∪ B
+A – B
+B – A
+A × B
+B × A
+For full credit, format your answers so they look like sets. Namely, the commas and brackets should be correct. The cross-products should be sets of ordered pairs, with correct parentheses and commas.
+This assignment is due in two parts. By the first deadline, you must AT LEAST be able to read in a file, and print out both sets. The rest of the program is due by the second deadline.
+After you've finished the program:
+Print up the cover pagePreview the document if you did not get one in class.
+Upload your source code file to Canvas.
+Demonstrate your program to a T.A. Please refer to the schedule on the door of GCB 111 for their office hours.
+Sign your cover page, and turn it in to the TA.
+Example:
+Suppose the input file contained:
+
+1 10 4
+6 4
+Your program should output:
+
+A = {1, 10, 4}
+B = {6, 4}
+A intersect B = {4}
+A union B = {1, 10, 4, 6}
+A - B = {1, 10}
+B - A = {6}
+A x B = {(1,6), (1,4), (10,6), (10,4), (4,6), (4,4)}
+B x A = {(6,1), (6,10), (6,4), (4,1), (4,10), (4,4)}
